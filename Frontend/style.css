@@ -2,6 +2,8 @@
     color: darkred;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
+    text-align: center;
+    
 }
 
 .small {
@@ -9,7 +11,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
-    align-item:center;
+    align-items:center;
+ 
 }
 
 header {
@@ -21,7 +24,9 @@ header {
 }
 
 body {
+
     margin: 0;
+   
 }
 
 header a {
@@ -40,7 +45,7 @@ a:hover {
     justify-content: center;
     background-color: lightblue;
     margin-top: 100px;
-    border: 5px solid   black;
+    border: 1px solid   black;
 }
 
 .container a {
@@ -48,13 +53,11 @@ a:hover {
     color:white;
     text-decoration: none;
     padding: 10px;
-}
-.container:hover  {
-    color:lightcoral;
+   
 }
 
 body {
-    background-color: lightblue;
+    background-color: lightpink;
 }
 
 button {
@@ -66,19 +69,37 @@ button {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    transition: transform 0.2s ease, background-color 0.2s easy;
+    transition: transform 0.2s ease, background-color 0.2s ease;
     display:flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    box-shadow: 0px 5px 13px 2px;
 }
 
 button:hover {
     background-color: lightcyan;
     transform: translateY(-10px);
     color:red;
+    box-shadow: 0px 5px 13px 2px;
 }
 
 button:active {
     transform: translateY(0);
+}
+
+.mimi {
+  
+    width:250px;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.mimi img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
 }
